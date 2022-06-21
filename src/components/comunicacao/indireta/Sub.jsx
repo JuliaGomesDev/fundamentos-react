@@ -5,7 +5,7 @@ export default props => {
     <div>
       <button
         onClick={() => {
-          props.onClicar(Math.random())
+          props.onClicar(Math.random(), 'Gerado')
         }}
       >
         Alterar

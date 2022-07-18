@@ -1,6 +1,6 @@
 import React from 'react'
 
-export default props => {
+const Sub = (props) => {
   return (
     <div>
       <button
@@ -13,3 +13,5 @@ export default props => {
     </div>
   )
 }
+
+export default Sub

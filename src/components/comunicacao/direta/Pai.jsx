@@ -1,10 +1,12 @@
 import React from 'react'
 import Filho from './Filho'
 
-export default props => (
+const Pai = (props) => (
   <div>
     <Filho {...props}>João</Filho>
     <Filho sobrenome={props.sobrenome}>Maria</Filho>
     <Filho sobrenome="Silva">Pedro</Filho>
   </div>
 )
+
+export default Pai

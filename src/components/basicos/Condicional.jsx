@@ -1,6 +1,6 @@
 import React from 'react'
 
-export default props => {
+const Condicional = (props) => {
   return (
     <div>
       <h2>O numero é {props.numero}</h2>
@@ -8,3 +8,5 @@ export default props => {
     </div>
   )
 }
+
+export default Condicional

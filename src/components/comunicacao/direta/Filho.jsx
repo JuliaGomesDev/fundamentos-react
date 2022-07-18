@@ -1,9 +1,11 @@
 import React from 'react'
 
-export default props => (
+const Filho = (props) => (
   <div>
     <p>
       {props.children} {props.sobrenome}
     </p>
   </div>
 )
+
+export default Filho

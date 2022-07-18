@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 
-export default (props) => {
+const Input = (props) => {
   const [nome, setNome] = useState('Pedro')
   return (
     <>
@@ -15,3 +15,5 @@ export default (props) => {
     </>
   )
 }
+
+export default Input

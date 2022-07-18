@@ -1,9 +1,9 @@
 import React from 'react'
 import produtos from '../../data/produtos'
 
-export default props => {
+const Repeticao = (props) => {
   function getProductsListItem() {
-    return produtos.map(prod => {
+    return produtos.map((prod) => {
       return (
         <li key={prod.id}>
           {prod.id} - {prod.nome} - R$ {prod.preco}
@@ -18,3 +18,5 @@ export default props => {
     </div>
   )
 }
+
+export default Repeticao

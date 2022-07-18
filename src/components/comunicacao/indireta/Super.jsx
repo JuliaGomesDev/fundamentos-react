@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import Sub from './Sub'
 
-export default props => {
+const Super = (props) => {
   const [texto, setTexto] = useState('Valor')
   const [valor, setValor] = useState(0)
 
@@ -19,3 +19,5 @@ export default props => {
     </div>
   )
 }
+
+export default Super
